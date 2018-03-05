@@ -1,4 +1,3 @@
-#include "doctest.h"
 #include <string>
 
 std::string triangle(int height)
@@ -13,7 +12,3 @@ std::string triangle(int height)
     return s;
 }
 
-TEST_CASE("Testing triangles")
-{
-    CHECK(triangle(5) == "*\n**\n***\n****\n*****\n");
-}

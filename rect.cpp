@@ -1,6 +1,4 @@
 #include <iostream>
-#include "doctest.h"
-
 #include "rect.h"
 
 
@@ -17,7 +15,4 @@ string box(int width, int height){
   return s;
 }
 
-TEST_CASE("Testing Box"){
-  string s = box(4,3);
-  CHECK(s=="****\n****\n****\n");
-}
+
