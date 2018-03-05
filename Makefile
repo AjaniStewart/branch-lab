@@ -1,12 +1,12 @@
 CXXFLAGS=-std=c++14
-OBJECTS=shapes.o triangle.o
+OBJECTS=rect.o triangle.o
 
 main: main.o $(OBJECTS)
 	g++ -o main main.o $(OBJECTS)
 
-main.o: main.cpp shapes.h
+main.o: main.cpp rect.h
 
-shapes.o: shapes.cpp shapes.h
+rect.o: rect.cpp rect.h
 
 triangle.o: triangle.cpp triangle.h
 

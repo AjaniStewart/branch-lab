@@ -1,7 +1,7 @@
 #include <iostream>
 #define DOCTEST_CONFIG_IMPLEMENT
 #include "doctest.h"
-#include "shapes.h"
+#include "rect.h"
 #include "triangle.h"
 
 using std::cout;

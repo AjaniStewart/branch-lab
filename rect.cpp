@@ -1,7 +1,7 @@
 #include <iostream>
 #include "doctest.h"
 
-#include "shapes.h"
+#include "rect.h"
 
 
 using std::string;
