@@ -1,7 +1,6 @@
 #include <iostream>
 #include "rect.h"
 
-
 using std::string;
 
 string box(int width, int height){
